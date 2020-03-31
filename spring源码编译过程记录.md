@@ -2,8 +2,6 @@
 
     使用idea 编译spring 5.0 源码
 
-
-
 ## 环境准备
 
     环境准备是最重要的,这步搞好了,可以省很多功夫
@@ -63,8 +61,6 @@ end
 
 [详情参考](https://www.jianshu.com/p/a537d9a4034f)
 
-
-
 ### 配置gradle下载远程仓库
 
     我之前失败过很多次就是因为这一部没有设置,下载依赖太慢,我还以为编译失败,有各种奇怪的报错.
@@ -88,8 +84,6 @@ allprojects{
     }
 }
 ```
-
-
 
 ### 导入idea
 
@@ -119,7 +113,7 @@ allprojects{
 
 * 开始下载依赖
 
-    ![](/Users/persevere_y/Documents/my_notebook/images/2020-03-31-13-47-44-image.png)
+![loading-ag-251](/Users/persevere_y/Documents/my_notebook/images/2020-03-31-13-47-44-image.png)
 
 这里,没有编译好的,应该是没有gradle的选项的,就是一个单独的项目,点击刷新按钮开始下载就好了。
 
@@ -128,8 +122,6 @@ allprojects{
 左侧的项目结构中,每个模块应该都变成蓝色的
 
 ![](/Users/persevere_y/Documents/my_notebook/images/2020-03-31-13-51-52-image.png)
-
-
 
 ### 编译源码
 
@@ -144,8 +136,6 @@ allprojects{
 等待程序编译好。
 
 [参考资料](https://blog.csdn.net/Dcwjh/article/details/104471560?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
-
-
 
 ### 总结
 
